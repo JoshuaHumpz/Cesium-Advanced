@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const { readdirSync } = require("fs");
 
 const startBot = async () => {
+    const file.event(DISCORD)
     const eventFiles = readdirSync("./events/");
     eventFiles.forEach(file => {
         const event = require(`./events/${file}`);
